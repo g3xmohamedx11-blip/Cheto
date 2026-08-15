@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#050505">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START THE GAME"
+        android:textColor="#F4C13A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="45dp"/>
+
+    <Button
+        android:id="@+id/rootButton"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="CHECK ROOT ACCESS"
+        android:textColor="#F4C13A"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_dark"/>
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:text="START THE GAME  ➜"
+        android:textColor="#F4C13A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/button_gold"/>
+
+</LinearLayout>
